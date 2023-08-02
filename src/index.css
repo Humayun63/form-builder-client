@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.primary-btn{
+    @apply px-4 border py-2 text-2xl rounded-md bg-blue-400 text-white
+}
+.primary-btn-small{
+    @apply px-4 border py-2 text-xl rounded-md bg-blue-400 text-white
+}
+.build-form-styles{
+    @apply border border-blue-400 w-11/12 mx-auto mt-4 px-4 py-8 rounded-md
+}
+.form-input{
+    @apply border rounded-md outline-blue-400 px-2 w-11/12 md:w-1/2 my-2 text-lg
+}
